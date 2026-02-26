@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1770914381 source:c:\users\william\desktop\sistema-de-gest-o-de-cursos-livres-em-c\menu.c
+	<stdio.h>
+	"menu.h"
+
+1770903423 c:\users\william\desktop\sistema-de-gest-o-de-cursos-livres-em-c\menu.h
+
+1770919080 source:c:\users\william\desktop\sistema-de-gest-o-de-cursos-livres-em-c\main.c
+	<stdio.h>
+	<stdlib.h>
+	"alunos.h"
+	"menu.h"
+
+1770922259 c:\users\william\desktop\sistema-de-gest-o-de-cursos-livres-em-c\alunos.h
+
+1770925156 source:c:\users\william\desktop\sistema-de-gest-o-de-cursos-livres-em-c\aluno.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"alunos.h"
+
+1770926367 source:c:\users\william\desktop\sistema-de-gest-o-de-cursos-livres-em-c\curso.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"curso.h"
+
+1770925707 c:\users\william\desktop\sistema-de-gest-o-de-cursos-livres-em-c\curso.h
+
