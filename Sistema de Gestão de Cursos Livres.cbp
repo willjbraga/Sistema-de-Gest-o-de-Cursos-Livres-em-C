@@ -39,6 +39,9 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="curso.h" />
+		<Unit filename="inscricao.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="inscricao.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
