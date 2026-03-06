@@ -5,7 +5,7 @@
 
 1772544284 c:\users\william\desktop\sistema-de-gest-o-de-cursos-livres-em-c\menu.h
 
-1772545379 source:c:\users\william\desktop\sistema-de-gest-o-de-cursos-livres-em-c\main.c
+1772821906 source:c:\users\william\desktop\sistema-de-gest-o-de-cursos-livres-em-c\main.c
 	<stdio.h>
 	<stdlib.h>
 	"alunos.h"
@@ -15,7 +15,7 @@
 
 1770922259 c:\users\william\desktop\sistema-de-gest-o-de-cursos-livres-em-c\alunos.h
 
-1770925156 source:c:\users\william\desktop\sistema-de-gest-o-de-cursos-livres-em-c\aluno.c
+1772822147 source:c:\users\william\desktop\sistema-de-gest-o-de-cursos-livres-em-c\aluno.c
 	<stdio.h>
 	<string.h>
 	<stdlib.h>
@@ -29,7 +29,13 @@
 
 1770925707 c:\users\william\desktop\sistema-de-gest-o-de-cursos-livres-em-c\curso.h
 
-1772545555 c:\users\william\desktop\sistema-de-gest-o-de-cursos-livres-em-c\inscricao.h
+1772823198 c:\users\william\desktop\sistema-de-gest-o-de-cursos-livres-em-c\inscricao.h
 	"alunos.h"
 	"curso.h"
+
+1772545504 source:c:\users\william\desktop\sistema-de-gest-o-de-cursos-livres-em-c\inscricao.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"inscricao.h"
 

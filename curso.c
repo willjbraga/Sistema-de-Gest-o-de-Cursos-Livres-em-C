@@ -60,7 +60,7 @@ void cadastrar_curso(Curso **curso, int *qtd) {
         (*curso)[*qtd] = novo;
         (*qtd)++;
 
-        printf("Deseja cadastrar outro curso em sequencia? (s/n): ");
+        printf("\nDeseja cadastrar outro curso em sequencia? (s/n): ");
         scanf(" %c", &op);
         limpar_buffer();
     }

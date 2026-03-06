@@ -74,7 +74,7 @@ void cadastrar_inscricao(Inscricao **insc, int *qtd, Aluno *aluno, int qtd_aluno
         (*insc)[*qtd] = novo;
         (*qtd)++;
 
-        printf("Inscricao cadastrada com sucesso.\n");
+        printf("\nInscricao cadastrada com sucesso.\n");
 
         printf("Deseja cadastrar outra inscricao em sequencia? (s/n): ");
         scanf(" %c", &op);

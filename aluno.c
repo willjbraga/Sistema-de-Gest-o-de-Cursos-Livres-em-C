@@ -22,6 +22,7 @@ void cadastrar_aluno(Aluno **aluno, int *qtd){
         printf("Digite o CPF do Aluno (Apenas numero)\n");
         fgets(novo.cpf, 12, stdin);
         tirar_enter(novo.cpf);
+        getchar();
 
         if (buscar_aluno_cpf(*aluno, *qtd, novo.cpf) != -1) {
             printf("CPF ja cadastrado.\n");
@@ -43,7 +44,7 @@ void cadastrar_aluno(Aluno **aluno, int *qtd){
         (*aluno)[*qtd] = novo;
         (*qtd)++;
 
-        printf("Deseja cadastrar outro aluno em sequencia? (s/n): ");
+        printf("\nDeseja cadastrar outro aluno em sequencia? (s/n): ");
         scanf(" %c", &op);
         getchar();
     }

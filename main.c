@@ -128,9 +128,13 @@ int main()
         escolha = menu_principal();
     }
 
-    faluno = freopen("alunos.bin", "wb", faluno);
-    fcurso = freopen("cursos.bin", "wb", fcurso);
-    finsc = freopen("cursos.bin", "wb", finsc);
+    fclose(faluno);
+    fclose(fcurso);
+    fclose(finsc);
+
+    faluno = fopen("alunos.bin", "wb");
+    fcurso = fopen("cursos.bin", "wb");
+    finsc = fopen("inscricao.bin", "wb");
 
     if (!faluno || !fcurso || !finsc) {
         printf("Erro ao salvar arquivos.\n");
